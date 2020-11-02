@@ -1,2 +1,2 @@
 # Udacity DataScienceWork
-## *- Amirta Muthal*
+*- Amirta Muthal*
