@@ -39,7 +39,6 @@ def get_filters():
 
     return choice
 
-
 def get_filters():
     
     Returns:
@@ -124,17 +123,17 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    # TO DO: display the most common month
+    # display the most common month
 
     most_common_month = df['Month'].mode()[0]
     print('most common month: ' + str(months[most_common_month-1]).title() + '.')
 
-    # TO DO: display the most common day of week
+    # display the most common day of week
 
     most_common_day = df['Weekday'].mode()[0]
     print('most common day of the week: ' + str(most_common_day) + '.')
 
-    # TO DO: display the most common start hour
+    # display the most common start hour
     
     most_common_hour = df['Start Hour'].mode()[0]
     print('most common start hour: ' + str(most_common_hour) + '.')
